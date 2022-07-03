@@ -8,14 +8,11 @@ services:
     build: .
     ports:
       - "80:80"
-      
-version: "3.9"  # optional since v1.27.0
-services:
-  web312:
+  web3551:
     build: .
     ports:
       - "80:80"
-  web2131:
+  web23431:
     build: .
     ports:
       - "80:80"
