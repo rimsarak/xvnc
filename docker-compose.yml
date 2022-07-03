@@ -12,7 +12,3 @@ services:
     build: .
     ports:
       - "80:80"
-  web23431:
-    build: .
-    ports:
-      - "80:80"
