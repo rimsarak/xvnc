@@ -1,8 +1,10 @@
 version: "3.9"  # optional since v1.27.0
 services:
   web31:
-  web30:
-  a21:
+    build: .
+    ports:
+      - "80:80"
+  web231:
     build: .
     ports:
       - "80:80"
